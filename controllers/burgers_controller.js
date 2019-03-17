@@ -1,18 +1,18 @@
-var express = require("express");
-
+// Pull in required dependencies
+var express = require('express');
 var router = express.Router();
 
-// Import the model (cat.js) to use its database functions.
-var burger = require("../models/burger.js");
+// Import the model (burger.js) to use its database functions.
+var burger = require('../models/burger.js');
 
-// Create all our routes and set up logic within those routes where required.
-router.get("/", function(req, res) {
+// Create the routes and associated logic
+router.get('/', function(req, res) {
   burger.selectAll(function(data) {
     var hbsObject = {
       burgers: data
     };
-    console.log(hbsObject);
-    res.render("index", hbsObject);
+    // console.log(hbsObject);
+    res.render('index', hbsObject);
   });
 });
 
