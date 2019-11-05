@@ -11,3 +11,5 @@ Each burger in the waiting area also has a `Devour it!` button. When the user cl
 The app will store every burger in a database, whether devoured or not.
 
 Node and MySQL query and route data in the app, and Handlebars generate the HTML. 
+
+![screenshot](public//assets/img/Eat-da-burger.png)
