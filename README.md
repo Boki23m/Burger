@@ -12,4 +12,6 @@ The app will store every burger in a database, whether devoured or not.
 
 Node and MySQL query and route data in the app, and Handlebars generate the HTML. 
 
+Deployed on Heroku. Check it out [here](https://peaceful-river-21628.herokuapp.com/).
+
 ![screenshot](public//assets/img/Eat-da-burger.png)
